@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sistema de Salud</title>
+  </head>
+  <body>
+    <h1>Sistema de Salud</h1>
+    <h2>Ingreso de resultados de exámenes médicos</h1>
+    <form>
+      <table>
+        <tr>
+          <th>Fecha del examen</th>
+          <th>Nombre del paciente</th>
+          <th>Hemograma</th>
+          <th>Perfil lipídico</th>
+          <th>Colesterol</th>
+          <th>Triglicéridos</th>
+          <th>Orina</th>
+          <th>Perfil bioquímico</th>
+          <th>Coagulación</th>
+          <th>Otros</th>
+        </tr>
+        <tr>
+          <td><input type="date"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+          <td><input type="text"></td>
+        </tr>
+      </table>
+      <input type="submit" value="Guardar">
+    </form>
+  </body>
+  <style>table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: #333;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  canvas {
+    display: block;
+    margin: 20px auto;
+  }</style>
+</html>
+<title>Visualización de resultados de exámenes médicos</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+<body>
+<h1>Visualización de resultados de exámenes médicos</h1>
+<table>
+  <tr>
+    <th>Fecha del examen</th>
+    <th>Nombre del paciente</th>
+    <th>Hemograma</th>
+    <th>Perfil lipídico</th>
+    <th>Colesterol</th>
+    <th>Triglicéridos</th>
+    <th>Orina</th>
+    <th>Perfil bioquímico</th>
+    <th>Coagulación</th>
+    <th>Otros</th>
+  </tr>
+  <!-- Aquí se mostrarían los-->
