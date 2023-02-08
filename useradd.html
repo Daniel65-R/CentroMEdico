@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h3 class="bg-secondary" >Formulario Registro Pacientes</h3>
+    <h3 class="Titulo" >Formulario Registro Pacientes</h3>
 
 
     <table  align="center" cellpadding="10">
@@ -30,6 +30,17 @@
                 (max 30 caracteres a-z and A-Z)
             </td>
         </tr>
+
+        <!----- Fotografía ---------------------------------------------------------->
+        <tr>
+            <td class="bg-primary">Fotografía</td>
+            <td>
+                <form method="post" action="index" enctype="multipart/form-data">
+                    <input type="file" name="archivo"><br>
+            </td>
+        </tr>
+
+        
 
         <!----- Fecha Nacimiento -------------------------------------------------------->
         <tr>
@@ -93,7 +104,7 @@
 
                 <select name="Birthday_Year" id="Birthday_Year">
 
-                    <option value="-1">:</option>
+                    <option value="-1">Año:</option>
                     <option value="2012">2012</option>
                     <option value="2011">2011</option>
                     <option value="2010">2010</option>
@@ -129,6 +140,17 @@
                     <option value="1982">1982</option>
                     <option value="1981">1981</option>
                     <option value="1980">1980</option>
+
+                    <option value="1979">1979</option>
+                    <option value="1978">1978</option>
+                    <option value="1977">1977</option>
+                    <option value="1976">1976</option>
+                    <option value="1975">1975</option>
+                    <option value="1974">1974</option>
+                    <option value="1973">1973</option>
+                    <option value="1972">1972</option>
+                    <option value="1971">1971</option>
+                    <option value="1970">1970</option>
                 </select>
             </td>
         </tr>
