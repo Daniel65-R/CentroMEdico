@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Salud</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header>
@@ -32,18 +32,22 @@
           <p>Información detallada sobre las bondades del sistema de salud que se está promoviendo.</p>
         </div>
       </section>
-      <section id="registro">
-        <div class="container">
-          <h2>Registro de Usuarios</h2>
-          <p>Interfaz para el registro de nuevos usuarios o pacientes en el sistema de salud.</p>
-        </div>
+      <section id="registration">
+        <h2>Registro de usuarios</h2>
+        <form onsubmit="return validateRegistrationForm()">
+  
+          <input type="submit" value="Registrarse">
+        </form>
       </section>
+  </section>
+</div>
+</section>
     </main>
     <footer>
       <div class="container">
         <p>&copy; Todos los derechos reservados</p>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -19,6 +19,6 @@ function validateForm() {
   }
 }
 function validateRegistrationForm() {
-    window.location.href = "http://127.0.0.1:3000/c:/Users/L200/Desktop/registro.html";
+    window.location.href = "http://127.0.0.1:3000/useradd.html";
     return false;
   }
