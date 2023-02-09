@@ -1,0 +1,140 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    background: grey;
+
+}
+h1{
+    font-family: Calibri; 
+    font-size: 50pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    background-color: #333;
+    color:White;
+    text-align: center; 
+    text-decoration: underline
+  }
+
+  ul{
+    margin: 0 auto;
+  }
+
+.color-texto {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    background: black;
+    color:rgb(189, 194, 194) !important;
+}
+
+.color-texto2, .head_title, .div_table, details, i {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color:rgb(189, 194, 194) !important;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.logo1{
+    width: 250px;
+    height: 250px;
+}
+
+.userIco-32{
+    width: 32px;
+    height: 32px;
+}
+
+.userIco-45{
+    width: 45px;
+    height: 45px;
+}
+
+.userIco-55{
+    width: 55px;
+    height: 55px;
+}
+
+.userIco-80{
+    width: 80px;
+    height: 80px;
+}
+
+.userIco-120{
+    width: 120px;
+    height: 120px;
+}
+
+.notification{
+    color:#d16f13;
+    font-size:22px;
+    margin-inline: 10px;
+}
+
+.brand, .head_title, details{
+    text-align: center;
+}
+
+
+.form_wrapper {
+    background: white;
+    color: Black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: Black;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 100%;
+    padding: 25px;
+    margin: 8% auto 0;
+    position: relative;
+}
+
+
+
+
+
+.form_wrapper2 {
+    background: white;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 4px;
+}
+
+.title_container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+label {
+    font-size: 12px;
+}
+
+.foo {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+    color:rgb(189, 194, 194)
+}
+
