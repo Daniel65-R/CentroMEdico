@@ -3,6 +3,8 @@
 let email;
 let password;
 
+const alertError = document.getElementById('alertError')
+
 // Función para validar la información del formulario
 function validateForm() {
   email = document.getElementById("email").value;
@@ -19,6 +21,24 @@ function validateForm() {
   }
 }
 function validateRegistrationForm() {
-    window.location.href = "http://127.0.0.1:3000/useradd.html";
+    window.location.href = "/register.html";
     return false;
   }
+
+const validateAccess = () =>{
+  let passText = document.getElementById('password')
+    if (passText.value == 12345) {
+        location.href = "privatePage.html";
+    } else {
+        const wrapper = document.createElement('div')
+        wrapper.innerHTML = [
+            `<div class="alert alert-danger alert-dismissible" role="alert">`,
+            `   <div>Contraseña NO coinciden</div>`,
+            '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">X</button>',
+            '</div>'
+        ].join('')
+
+        alertError.append(wrapper)
+        passText.value = ""
+    }
+}
